@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Dll.cpp" />
+    <ClCompile Include="Source\ReinforcementLearning.cpp" />
+    <ClCompile Include="Source\RLAIModule.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ReinforcementLearning.h" />
+    <ClInclude Include="Source\UnitProblem.h" />
+    <ClInclude Include="Source\RLAIModule.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExampleAIModule.rc" />
+  </ItemGroup>
+</Project>

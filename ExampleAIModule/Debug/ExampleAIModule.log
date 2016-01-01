@@ -1,0 +1,105 @@
+﻿Build started 10/5/2015 12:39:36 AM.
+     1>Project "C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\ExampleAIModule\ExampleAIModule.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /Zi /nologo /W3 /WX- /MP /Od /Oy- /D NOMINMAX /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EXAMPLEAIMODULE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ReinforcementLearning.cpp
+         ReinforcementLearning.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Math.h(34): warning C4005: 'NOMINMAX' : macro redefinition
+                 command-line arguments :  see previous definition of 'NOMINMAX'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(843): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(842) : while compiling class template member function 'RLLib::Vector<int> *RLLib::PVector<int>::addToSelf(const RLLib::Vector<int> *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Tiles.h(74) : see reference to class template instantiation 'RLLib::PVector<int>' being compiled
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Tiles.h(73) : while compiling class template member function 'RLLib::Tiles<T>::Tiles(RLLib::Hashing<T> *)'
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Projector.h(135) : see reference to function template instantiation 'RLLib::Tiles<T>::Tiles(RLLib::Hashing<T> *)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Projector.h(134) : see reference to class template instantiation 'RLLib::Tiles<T>' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Projector.h(130) : while compiling class template member function 'RLLib::TileCoderHashing<double>::TileCoderHashing(RLLib::Hashing<double> *,const int &,const T &,const int &,const bool &)'
+                 with
+                 [
+                     T=double
+                 ]
+                 ReinforcementLearning.cpp(11) : see reference to function template instantiation 'RLLib::TileCoderHashing<double>::TileCoderHashing(RLLib::Hashing<double> *,const int &,const T &,const int &,const bool &)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 ReinforcementLearning.cpp(10) : see reference to class template instantiation 'RLLib::TileCoderHashing<double>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(939): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(938) : while compiling class template member function 'int RLLib::PVector<int>::l2Norm(void) const'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(199): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(198) : while compiling class template member function 'int RLLib::DenseVector<T>::maxNorm(void) const'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(775) : see reference to class template instantiation 'RLLib::DenseVector<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(911) : see reference to function template instantiation '_OutIt std::copy<const T*,T*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=double *
+         ,            T=double
+         ,            _InIt=const double *
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Vector.h(904) : while compiling class template member function 'RLLib::Vector<T> *RLLib::PVector<T>::set(const RLLib::Vector<T> *,const int &)'
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\rllib\Projector.h(133) : see reference to class template instantiation 'RLLib::PVector<T>' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\numeric(20): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\numeric(31) : see reference to function template instantiation '_Ty std::_Accumulate<double*,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+                 with
+                 [
+                     _Ty=float
+         ,            _Fn2=std::plus<void>
+         ,            _InIt=double *
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\numeric(39) : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+                 with
+                 [
+                     _Ty=float
+         ,            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+         ,            _Fn2=std::plus<void>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\rllib\RL.h(360) : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,float>(_InIt,_InIt,_Ty)' being compiled
+                 with
+                 [
+                     _Ty=float
+         ,            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\rllib\RL.h(358) : while compiling class template member function 'void RLLib::RLRunner<double>::benchmark(void)'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\rllib\RL.h(496) : see reference to function template instantiation 'void RLLib::RLRunner<double>::benchmark(void)' being compiled
+                 ReinforcementLearning.cpp(22) : see reference to class template instantiation 'RLLib::RLRunner<double>' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Debug\ExampleAIModule.dll" /INCREMENTAL:NO /NOLOGO ../lib/BWAPId.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Debug\ExampleAIModule.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\ExampleAIModule.lib" /MACHINE:X86 /SAFESEH /DLL Debug\ReinforcementLearning.obj
+         Debug\Dll.obj
+         Debug\ExampleAIModule.obj
+     1>LINK : fatal error LNK1181: cannot open input file '../lib/BWAPId.lib'
+     1>Done Building Project "C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\ExampleAIModule\ExampleAIModule.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:20.16

@@ -1,0 +1,59 @@
+12/23/2015 10:15:16 PM 4664 Logging started
+12/23/2015 10:15:17 PM 4664 Begin Startup
+12/23/2015 10:15:17 PM 4664 Chaosauncher 0.5.4.1 on NT 6.1.7601 Service Pack 1 at C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Chaoslauncher - MultiInstance.exe
+12/23/2015 10:15:17 PM 4664 Load Settings
+12/23/2015 10:15:17 PM 4664 GamePath: C:\Users\VictorHS\Documents\victor\Starcraft\
+12/23/2015 10:15:17 PM 4664 Load Plugins
+12/23/2015 10:15:17 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\iccscbn.icc
+12/23/2015 10:15:17 PM 4664 Plugin loaded ICCup
+12/23/2015 10:15:18 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\APMAlert.bwl
+12/23/2015 10:15:18 PM 4664 Plugin loaded APMAlert (1.16.1)
+12/23/2015 10:15:18 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\BWAPI_PluginInjector.bwl
+12/23/2015 10:15:18 PM 4664 Plugin loaded BWAPI 4.1.2 Injector [RELEASE]
+12/23/2015 10:15:18 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\Chaosplugin.bwl
+12/23/2015 10:15:18 PM 4664 Plugin loaded Chaosplugin for 1.16.1
+12/23/2015 10:15:18 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\LatencyChanger.bwl
+12/23/2015 10:15:18 PM 4664 Plugin loaded LatencyChanger for 1.16.1
+12/23/2015 10:15:18 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\repfix.bwl
+12/23/2015 10:15:18 PM 4664 Plugin loaded RepFix
+12/23/2015 10:15:18 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\RWAPlayer.bwl
+12/23/2015 10:15:19 PM 4664 Plugin loaded RWAPlayer (1.16.1)
+12/23/2015 10:15:19 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\RWARecorder.bwl
+12/23/2015 10:15:19 PM 4664 Plugin loaded RWARecorder (1.16.1)
+12/23/2015 10:15:19 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\Stormplugin.bwl
+12/23/2015 10:15:19 PM 4664 Plugin loaded Stormplugin for 1.16.1
+12/23/2015 10:15:19 PM 4664 Loading BWL4-Plugin C:\Users\VictorHS\Desktop\bwapi-master\bwapi-master\Release_Binary\Chaoslauncher\Plugins\wmode.bwl
+12/23/2015 10:15:20 PM 4664 Plugin loaded W-MODE 1.02
+12/23/2015 10:15:20 PM 4664 Load Tools
+12/23/2015 10:15:20 PM 4664 Init GUI
+12/23/2015 10:15:20 PM 4664 Get Starcraftversions
+12/23/2015 10:15:20 PM 4664 Init complete
+12/23/2015 10:15:20 PM 4664 Run Starcraft on startup
+12/23/2015 10:15:20 PM 4664 Start latest Starcraft
+12/23/2015 10:15:20 PM 4664 Starting Game Starcraft 1.16.1 C:\Users\VictorHS\Documents\victor\Starcraft\StarCraft.exe
+12/23/2015 10:15:20 PM 4664 BWAPI 4.1.2 Injector [RELEASE] Version  Compatible
+12/23/2015 10:15:20 PM 4664 W-MODE 1.02 Version 1.0.2 Compatible
+12/23/2015 10:15:20 PM 4664 Could not obtain SeDebugPrivilege Nem todos os privilégios ou grupos mencionados estão atribuídos ao chamador.
+(1300)
+12/23/2015 10:15:24 PM 4664 CreateProcess
+12/23/2015 10:15:26 PM 4664 Call ScSuspended for all active Plugins
+12/23/2015 10:15:26 PM 4664 ApplyPatchSuspended for BWAPI 4.1.2 Injector [RELEASE]
+12/23/2015 10:15:35 PM 4664 ApplyPatchSuspended for W-MODE 1.02
+12/23/2015 10:15:35 PM 4664 ResumeThread
+12/23/2015 10:15:35 PM 4664 WaitForInputIdle
+12/23/2015 10:15:36 PM 4664 Call ScWindowCreated for all active Plugins
+12/23/2015 10:15:36 PM 4664 ApplyPatch for BWAPI 4.1.2 Injector [RELEASE]
+12/23/2015 10:15:36 PM 4664 ApplyPatch for W-MODE 1.02
+12/23/2015 10:15:36 PM 4664 Starting Starcraft completed
+12/23/2015 10:29:10 PM 4664 Finishing
+12/23/2015 10:29:10 PM 4664 Unloading Plugin ICCup
+12/23/2015 10:29:10 PM 4664 Unloading Plugin APMAlert (1.16.1)
+12/23/2015 10:29:10 PM 4664 Unloading Plugin BWAPI 4.1.2 Injector [RELEASE]
+12/23/2015 10:29:10 PM 4664 Unloading Plugin Chaosplugin for 1.16.1
+12/23/2015 10:29:10 PM 4664 Unloading Plugin LatencyChanger for 1.16.1
+12/23/2015 10:29:10 PM 4664 Unloading Plugin RepFix
+12/23/2015 10:29:10 PM 4664 Unloading Plugin RWAPlayer (1.16.1)
+12/23/2015 10:29:10 PM 4664 Unloading Plugin RWARecorder (1.16.1)
+12/23/2015 10:29:10 PM 4664 Unloading Plugin Stormplugin for 1.16.1
+12/23/2015 10:29:10 PM 4664 Unloading Plugin W-MODE 1.02
+12/23/2015 10:29:10 PM 4664 Logging ended
